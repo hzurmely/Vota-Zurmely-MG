@@ -137,7 +137,9 @@
   .btn.pri{background:var(--on); color:var(--on-text); border-color:var(--on)}
   .btn.ghost{flex:0 0 auto; background:transparent}
 
-  footer{border-top:1px solid var(--line); color:var(--muted); font-size:12px; padding:16px 0 30px}
+  footer{border-top:1px solid var(--line); color:var(--muted); font-size:13px; line-height:1.6; padding:20px 0 40px}
+  footer .aviso{margin:0 0 14px; padding:12px 14px; border:1px solid var(--line); border-left:3px solid var(--accent); border-radius:8px; background:var(--accent-soft); color:var(--text); font-size:14px; font-weight:650}
+  footer .fonte{margin:0}
 
   @media (max-width:760px){
     .wrap{padding:0 12px}
@@ -223,9 +225,8 @@
 </dialog>
 
 <footer class="wrap">
-  Dados e fotos: Divulgação de Candidaturas e Contas Eleitorais (TSE) — Eleições 2026.
-  As fotos são carregadas do servidor do TSE, então é preciso estar conectado à internet.
-  Esta página é apenas uma ferramenta de consulta pessoal e não tem vínculo com o TSE nem com nenhuma campanha.
+  <p class="aviso">Esta página é apenas uma ferramenta de consulta pessoal. Não tem vínculo com o TSE, com a Justiça Eleitoral, nem com qualquer campanha ou candidatura.</p>
+  <p class="fonte">Dados e fotos: Divulgação de Candidaturas e Contas Eleitorais (TSE) — Eleições 2026. As fotos são carregadas do servidor do TSE, então é preciso estar conectado à internet.</p>
 </footer>
 
 <script>
